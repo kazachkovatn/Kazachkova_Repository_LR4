@@ -40,9 +40,10 @@ void enterY()
  //branch2_entery
 }
 
-void enterZ() 
+void enterZ()  //branch3_enterz
 {
- //branch3_enterz
+    enterNumber(z, "Input z: ");
+    cout << "z: " << z << endl;
 }
 
 int IntSumm(float x, float y, float z) //branch4_IntSumm
