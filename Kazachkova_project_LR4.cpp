@@ -50,9 +50,13 @@ int IntSumm(float x, float y, float z)
  //branch4_IntSumm
 }
 
-float FractPart(float x, float y, float z)
+float FractPart(float x, float y, float z) //branch5_FractPart
 {
- //branch5_FractPart
+    float xyz = x * y * z;
+    float geo_mean1 = pow(xyz, 1/3);
+    int geo_mean2 = pow(xyz, 1/3);
+    float fractpart = geo_mean1 - geo_mean2;
+    cout << "FractPart: " << fractpart << endl;
 }
 
 struct MenuItem {
