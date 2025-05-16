@@ -35,9 +35,10 @@ void enterX()
  //branch1_enterx
 }
 
-void enterY() 
+void enterY()  //branch2_entery
 {
- //branch2_entery
+    enterNumber(y, "Input y: ");
+    cout << "y: " << y << endl;
 }
 
 void enterZ()  //branch3_enterz
