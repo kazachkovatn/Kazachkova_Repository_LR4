@@ -30,9 +30,10 @@ void enterNumber(int& varLink, string label) {
     varLink = stoi(str_input);
 }
 
-void enterX() 
+void enterX()  //branch1_enterx
 {
- //branch1_enterx
+    enterNumber(x, "Input x: ");
+    cout << "x: " << x << endl;
 }
 
 void enterY() 
