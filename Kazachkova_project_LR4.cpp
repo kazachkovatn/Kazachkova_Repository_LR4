@@ -45,9 +45,10 @@ void enterZ()
  //branch3_enterz
 }
 
-int IntSumm(float x, float y, float z)
+int IntSumm(float x, float y, float z) //branch4_IntSumm
 {
- //branch4_IntSumm
+    int sum = x + y + z;
+    cout << "Int summ: " << sum << endl;
 }
 
 float FractPart(float x, float y, float z)
